@@ -12,7 +12,8 @@ body {
 
 main {
   text-align: left;
-  padding: 50px 35%;
+  padding-left: 5rem;
+  padding-right: 15rem;
 }
 
 h2 {
@@ -21,13 +22,16 @@ h2 {
 }
 
 p {
-  /* font-size: 12px; */
+  font-size: 1rem;
 }
 
 footer {
-  padding: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   margin: 10px 0px;
   text-align: center;
   display: block;
-  font-size: .6em;
+  font-size: .6rem;
 }
